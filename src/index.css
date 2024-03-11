@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5%;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  background-color: #ffa94d;
+  border: none;
+  border-radius: 7px;
+  color: #343a40;
+  cursor: pointer;
+  font-weight: 900;
+  padding: 0.8rem 1.2rem;
+  transition: .3s;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  width: 1200px;
+  height: auto;
+  margin: 50px auto;
+}
+
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+}
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .add {
+  align-self: flex-end;
+}
+
+.person-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 20px;
+  width: 500px;
+  height: 100px;
+}
+
+.person-container .name {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.person-container button {
+  margin-left: auto;
+}
+
+.addPerson-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff4e6;
+  gap: 15px;
+  width: 500px;
+  height: auto;
+}
+
+.addPerson-container label,
+input,
+.btnAddPerson {
+  display: inline-block;
+  width: 250px;
+}
+
+.toggleColor {
+  background-color: #fff4e6;
+}
+
+.bill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff4e6;
+  padding: 20px;
+  gap: 20px;
+  width: 420px;
+  height: 420px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.bill-form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bill-input,
+.btnBill {
+  text-align: center;
+  width: 120px;
+}
+
+.btnBill {
+  font-size: 0.8rem;
+  margin-left: auto;
+}
